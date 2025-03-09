@@ -19,9 +19,6 @@
 
 .bottom-nav {
     background-color: var(--light-blue);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     padding: 10px;
     position: fixed;
     bottom: 0;
