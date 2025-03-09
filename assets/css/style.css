@@ -1,12 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* Typography */
 
 /* root styles */
 
+
 :root {
     --teal-blue: #b1d8f2;
-    --Lightblue: #3da1e6;
+    --light-blue: #3da1e6;
+
+    --normal-tekst: 14px;
 }
 
-body {
-    background-color: black;
+.bottom-nav {
+    background-color: var(--light-blue);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 104px;
+}
+
+.bottom-nav a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-decoration-line: none;
+    font-size: var(--normal-tekst);
+}
+
+.bottom-nav a:nth-of-type(2) p {
+    margin-top: 15px;
+}
+
+.bottom-nav a img {
+    width: 30px;
+    height: auto;
+    margin-bottom: 10px;
 }
