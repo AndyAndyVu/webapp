@@ -16,7 +16,7 @@
 
     --normal-tekst: 14px;
 }
-/* Header*/
+/* Header lavet af Samanta*/
 .top-nav {
     background-color: var(--teal-blue);
     max-width: 400px;
@@ -51,9 +51,12 @@ i {
     font-size: var(--normal-tekst);
     line-height: 25px;
 }
+.herobillede {
+    max-width: 400px;
+}
 
 
-/* Bottom navigation*/
+/* Bottom navigation lavet af Samanta*/
 .bottom-nav {
     background-color: var(--light-blue);
     padding: 10px;
@@ -124,8 +127,45 @@ article div li {
     line-height: 22px;
 }
 article h3{
+    margin-top: 0.5rem;
     margin-left: 0.5rem;
 }
 article i {
     padding-left: 20px;
+}
+
+/* Info side lavet af samanta*/
+.infoMain p {
+    font-size: var(--normal-tekst);
+    line-height: 20px;
+    padding: 0.5rem;
+}
+ .GratisFestival img{
+    max-width: 360px;
+        align-items: center;
+        padding-top: 1rem;
+}
+
+.Info-intro-tekst {
+margin-left: 1rem;
+}
+.Info-intro-tekst h2 {
+    padding: 1rem;
+}
+.Info-intro-tekst img {
+    max-width: 360px;
+    align-items: center;
+    padding-top: 1rem;
+}
+.GratisFestival {
+    margin-left: 1rem;
+}
+.GratisFestival h2{
+    padding: 1rem;
+}
+.Toiletter {
+    margin-left: 1rem;
+}
+.Toiletter h2 {
+    padding-top: 1rem;
 }
