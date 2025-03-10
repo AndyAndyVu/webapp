@@ -92,45 +92,40 @@ footer ul {
     margin-bottom: 10px;
 }
 
-.event-list {
-    display: flex;
-    align-items: center;
-    background-color:var(--beige);
-    padding: 10px;
-    border-radius: 10px;
-    max-width: 350px;
-
+.dato{
+    text-align: center;
+    padding: 1rem;
 }
-
-.event-info img {
-    width: 30px;
-    height: 100%;
+#sortFilter {
+    margin-left: 1rem;
 }
-
 /* LAVET AF IMILIA */
 article {
     display: flex;
     padding-bottom: 1rem;
+    padding: 1rem;
 }
 
 article div {
     background-color: var(--beige);
     width: 230px;
-    height: 120px;
+    height: 135px;
     border-radius: 8px;
 }
 
 article img {
     width: 155px;
-    height: 120px;
+    height: 135px;
 }
 
 article div li {
     list-style-type: none;
+    margin-left: 1rem;
+    line-height: 22px;
 }
-
-.hjerteIkon {
-    height: 20px;
-    width: 25px;
-    text-shadow: 2px 2px black;
+article h3{
+    margin-left: 0.5rem;
+}
+article i {
+    padding-left: 20px;
 }
