@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Den Blå Festival</title>
     <link rel="stylesheet" href="./css/style.css">
-    <script defer src="./js/app.js"></script>
+    <script src="./js/app.js" defer></script>
 </head>
 
 <body>
@@ -17,31 +17,29 @@
     </header>
 
     <main>
-        <section class="hero">
-            <img src="/assets/img/Forside billede.png" alt="Festival Billede">
-            <div class="hero-text">
-                <h1>Velkommen</h1>
-                <p>tekst</p>
-            </div>
-        </section>
 
-        <section>
-            <h3>Nyheder</h3>
-            <div class="news-container">
+        <h2>Mandag 27. august</h2>
+        <select id="sortFilter">
+            <option value="time">Sortere efter: Tidspunkt</option>
+            <option value="blues">Sortere efter: Blues</option>
+            <option value="jazz">Sortere efter: Jazz</option>
+            <option value="kunstner">Sortere efter: Kunstner</option>
+            <option value="sted">Sortere efter: Sted</option>
+            <option value="pris">Sortere efter: Pris</option>
+        </select>
+
+        <div class="event-list">
+            <img src="./img/AbZalon Event Factory.png" alt="Late Night Jam">
+            <div class="event-info">
+                <h3>Late Night Jam</h3>
+                <ul>
+                    <li> AbZalon Event Factory</li>
+                    <li> Blues</li>
+                    <li> Entre 50,- <img src="./img/like ikon.png" alt="hjerte"></li>
+                </ul>
             </div>
-        </section>
     </main>
 
-    <nav class="bottom-nav">
-        <a href="./index.html">  <img src="./img/Home ikon.png" alt="Home">
-        <p>Hjem</p></a>
-        <a href="#"><img src="./img/2024 ikon.png" alt="Program 2024">
-        <p>Program</p></a>
-        <a href="#"><img src="./img/info ikon.png" alt="Info">
-        <p>Information</p></a>
-        <a href="#"><img src="./img/like ikon.png" alt="Like">
-        <p>Favoritter</p></a>
-    </nav>
 </body>
 
 </html>

@@ -44,3 +44,19 @@
     height: auto;
     margin-bottom: 10px;
 }
+
+.event-list {
+    display: flex;
+    align-items: center;
+    background-color:var(--beige);
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 350px;
+
+}
+
+.event-info img {
+    width: 30px;
+    height: 100%;
+}
+
