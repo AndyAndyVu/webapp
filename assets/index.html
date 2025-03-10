@@ -1,25 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Den Blå Festival</title>
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Den Blå Festival | Hjem</title>
+    <link rel="stylesheet" href="./css/style.css" />
     <script src="./js/app.js" defer></script>
-        <link
+    <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+  </head>
 
-</head>
-
-<body>
-    
-        <header class="header">
+  <body>
+    <header class="header">
       <div class="top-nav">
         <ul>
           <li>
@@ -30,35 +27,292 @@
             />
           </li>
           <li>
-            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-magnifying-glass" style="color: black"></i>
           </li>
         </ul>
       </div>
     </header>
+
     <main>
+      <h2>Mandag 27. august</h2>
+      <select id="sortFilter">
+        <option value="time">Sortere efter: Tidspunkt</option>
+        <option value="blues">Sortere efter: Blues</option>
+        <option value="jazz">Sortere efter: Jazz</option>
+        <option value="kunstner">Sortere efter: Kunstner</option>
+        <option value="sted">Sortere efter: Sted</option>
+        <option value="pris">Sortere efter: Pris</option>
+      </select>
 
-        <h2>Mandag 27. august</h2>
-        <select id="sortFilter">
-            <option value="time">Sortere efter: Tidspunkt</option>
-            <option value="blues">Sortere efter: Blues</option>
-            <option value="jazz">Sortere efter: Jazz</option>
-            <option value="kunstner">Sortere efter: Kunstner</option>
-            <option value="sted">Sortere efter: Sted</option>
-            <option value="pris">Sortere efter: Pris</option>
-        </select>
+      <!-- Burde på JS til at lave et loop på disse articles, but I have zero braincells -->
 
-        <div class="event-list">
-            <img src="./img/AbZalon Event Factory.png" alt="Late Night Jam">
-            <div class="event-info">
-                <h3>Late Night Jam</h3>
-                <ul>
-                    <li> AbZalon Event Factory</li>
-                    <li> Blues</li>
-                    <li> Entre 50,- <img src="./img/like ikon.png" alt="hjerte"></li>
-                </ul>
-            </div>
+      <article>
+        <img src="./img/Late night jam.png" alt="" />
+        <div>
+          <h3>Late Night Jam</h3>
+          <ul>
+            <li>Sted: Abzalon Event Factory</li>
+            <li>Tidspunkt: Torsdag 21:00</li>
+            <li>
+              Entre: 50,-
+              <img
+                src="./img/like ikon.png"
+                class="hjerteIkon"
+                alt="hjerte ikon"
+              />
+            </li>
+          </ul>
+        </div>
+      </article>
+
+      <article>
+        <img src="./img/Big Creek Slim Johnny Burgin.png" alt="" />
+        <div>
+          <h3>Big Creek & Sal Dibba</h3>
+          <ul>
+            <li>Sted: Kulturcenter Fjordbyen</li>
+            <li>Tidspunkt: Lørdag 16:00</li>
+            <li>
+              Entre: Gratis
+              <img
+                src="./img/like ikon.png"
+                class="hjerteIkon"
+                alt="hjerte ikon"
+              />
+            </li>
+          </ul>
+        </div>
+      </article>
+
+      <article>
+        <img src="./img/Sahra Da Silva Band.png" alt="" />
+        <div>
+          <h3>Sahra Da Silva Band</h3>
+          <ul>
+            <li>Sted: Salling Rooftop</li>
+            <li>Tidspunkt: Lørdag 18:00</li>
+            <li>
+              Entre: Gratis
+              <img
+                src="./img/like ikon.png"
+                class="hjerteIkon"
+                alt="hjerte ikon"
+              />
+            </li>
+          </ul>
+        </div>
+      </article>
+
+      <article>
+        <img src="./img/Brønderslev Big Band.png" alt="" />
+        <div>
+          <h3>Brønderslev Big Band</h3>
+          <ul>
+            <li>Sted: Jazzscenen på Gammeltorv</li>
+            <li>Tidspunkt: Torsdag 20:00</li>
+            <li>
+              Entre: Gratis
+              <img
+                src="./img/like ikon.png"
+                class="hjerteIkon"
+                alt="hjerte ikon"
+              />
+            </li>
+          </ul>
+        </div>
+      </article>
+
+      <article>
+        <img src="./img/" alt="" />
+        <div>
+          <h3>St. Mariæ Skolens Bigband</h3>
+          <ul>
+            <li>Sted: Jazzscenen på Gammeltorv</li>
+            <li>Tidspunkt: Torsdag 14:00</li>
+            <li>
+              Entre: Gratis
+              <img
+                src="./img/like ikon.png"
+                class="hjerteIkon"
+                alt="hjerte ikon"
+              />
+            </li>
+          </ul>
+        </div>
+      </article>
+
+      <article>
+        <img src="./img/Arosia.jpg" alt="" />
+        <div>
+          <h3>Arosia</h3>
+          <ul>
+            <li>Sted: Jazzsecenen på Gammeltorv</li>
+            <li>Tidspunkt: Torsdag 19:30</li>
+            <li>
+              Entre: Gratis
+              <img
+                src="./img/like ikon.png"
+                class="hjerteIkon"
+                alt="hjerte ikon"
+              />
+            </li>
+          </ul>
+        </div>
+      </article>
+
+      <article>
+        <img src="./img/Wash & Kjær.jpg" alt="" />
+        <div>
+          <h3>Wash & Kjær</h3>
+          <ul>
+            <li>Sted: Duus Vinkælder</li>
+            <li>Tidspunkt: Fredag 21:00</li>
+            <li>
+              Entre: Gratis
+              <img
+                src="./img/like ikon.png"
+                class="hjerteIkon"
+                alt="hjerte ikon"
+              />
+            </li>
+          </ul>
+        </div>
+      </article>
+
+      <article>
+        <img src="./img/Lothar, Nande & Lindholt.jpg" alt="" />
+        <div>
+          <h3>Lothar, Nande & Lindholt</h3>
+          <ul>
+            <li>Sted: John Bull Pub</li>
+            <li>Tidspunkt: Torsdag 21:00</li>
+            <li>
+              Entre: Gratis
+              <img
+                src="./img/like ikon.png"
+                class="hjerteIkon"
+                alt="hjerte ikon"
+              />
+            </li>
+          </ul>
+        </div>
+      </article>
+
+      <article>
+        <img src="./img/Malthe Nielsen og Henning Jensen.jpg" alt="" />
+        <div>
+          <h3>Malthe Nielsen og Henning Jensen</h3>
+          <ul>
+            <li>Sted: Kystens Perle</li>
+            <li>Tidspunkt: Fredag 15:00</li>
+            <li>
+              Entre: Gratis
+              <img
+                src="./img/like ikon.png"
+                class="hjerteIkon"
+                alt="hjerte ikon"
+              />
+            </li>
+          </ul>
+        </div>
+      </article>
+
+      <article>
+        <img src="./img/Chris Andersen Trio.jpg" alt="" />
+        <div>
+          <h3>Chris Andersen Trio</h3>
+          <ul>
+            <li>Sted: Salling Algade Torv</li>
+            <li>Tidspunkt: Fredag 15:00</li>
+            <li>
+              Entre: Gratis
+              <img
+                src="./img/like ikon.png"
+                class="hjerteIkon"
+                alt="hjerte ikon"
+              />
+            </li>
+          </ul>
+        </div>
+      </article>
+
+      <article>
+        <img src="./img/Thomas Munk Trio.jpg" alt="" />
+        <div>
+          <h3>Thomas Munk Trio</h3>
+          <ul>
+            <li>Sted: Quist Wine</li>
+            <li>Tidspunkt: Fredag 16:00</li>
+            <li>
+              Entre: Gratis<img
+                src="./img/like ikon.png"
+                class="hjerteIkon"
+                alt="hjerte ikon"
+              />
+            </li>
+          </ul>
+        </div>
+      </article>
+
+      <article>
+        <img src="./img/Late Lunch and Laid Back grooves.jpg" alt="" />
+        <div>
+          <h3>Late Lunch and Laid Back grooves</h3>
+          <ul>
+            <li>Sted: KaffeFair</li>
+            <li>Tidspunkt: Lørdag 15:00</li>
+            <li>
+              Entre: Se pdf
+              <img
+                src="./img/like ikon.png"
+                class="hjerteIkon"
+                alt="hjerte ikon"
+              />
+            </li>
+          </ul>
+        </div>
+      </article>
+
+      <article>
+        <img src="./img/Jesper Theis og RJ Mischo.jpg" alt="" />
+        <div>
+          <h3>Jesper Theis og RJ Mischo</h3>
+          <ul>
+            <li>Sted: Kulturcenter Fjordbyen</li>
+            <li>Tidspunkt: Lørdag 15:00</li>
+            <li>
+              Entre: Gratis
+              <img
+                src="./img/like ikon.png"
+                class="hjerteIkon"
+                alt="hjerte ikon"
+              />
+            </li>
+          </ul>
+        </div>
+      </article>
+
+      <article>
+        <img src="./img/Jazzen på pladsen.jpg" alt="" />
+        <div>
+          <h3>Jazzen på pladsen</h3>
+          <ul>
+            <li>Sted: Louise Plads</li>
+            <li>Tidspunkt: Lørdag 14:00</li>
+            <li>
+              Entre: Gratis
+              <img
+                src="./img/like ikon.png"
+                class="hjerteIkon"
+                alt="hjerte ikon"
+              />
+            </li>
+          </ul>
+        </div>
+      </article>
     </main>
- <footer class="bottom-nav">
+
+    <footer class="bottom-nav">
       <ul class="menu">
         <li>
           <i class="fa-solid fa-house"></i> <br />
@@ -78,6 +332,5 @@
         </li>
       </ul>
     </footer>
-</body>
-
+  </body>
 </html>

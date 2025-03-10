@@ -19,7 +19,7 @@
 /* Header*/
 .top-nav {
     background-color: var(--teal-blue);
-    max-width: 393px;
+    max-width: 400px;
     padding: 0.5rem;
     padding-left: 1rem;
 }
@@ -52,13 +52,14 @@ i {
     line-height: 25px;
 }
 
+
 /* Bottom navigation*/
 .bottom-nav {
     background-color: var(--light-blue);
     padding: 10px;
     position: fixed;
     bottom: 0;
-    width: 393px;
+    width: 400px;
     height: 104px;
 }
 
@@ -106,3 +107,30 @@ footer ul {
     height: 100%;
 }
 
+/* LAVET AF IMILIA */
+article {
+    display: flex;
+    padding-bottom: 1rem;
+}
+
+article div {
+    background-color: var(--beige);
+    width: 230px;
+    height: 120px;
+    border-radius: 8px;
+}
+
+article img {
+    width: 155px;
+    height: 120px;
+}
+
+article div li {
+    list-style-type: none;
+}
+
+.hjerteIkon {
+    height: 20px;
+    width: 25px;
+    text-shadow: 2px 2px black;
+}
