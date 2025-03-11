@@ -116,12 +116,11 @@ const events = [
 // Function renderEvents er en funktion der viser events på siden.
 function renderEvents(filteredEvents) {
     let containerEl = document.querySelector("#eventContainer");
-    containerEl.innerHTML = ""; 
-// Giver en variabel til vores container, og siger vores "" skal være tom.
+        containerEl.innerHTML = "";
 
-        filteredEvents.forEach(event => { // Her looper jeg igennem vores array med ForEach, samt laver en ny div til hvert event hvorefter jeg appendChild(tilføjer et element til vores DOM) til vores containerEl.
-        let eventEl = document.createElement("div");
-        eventEl.innerHTML = `
+    filteredEvents.forEach(event => {
+        let eventEl = document.querySelector("#eventContainer");
+        eventEl.innerHTML +=      `     
             <article>
             <img src="${event.image}" alt="${event.artist}" loading="lazy" />
             <h3>${event.artist}</h3>
@@ -131,9 +130,9 @@ function renderEvents(filteredEvents) {
             <p>Entre: ${event.price === "free" ? "Gratis" : event.price}</p>
             </article>
         `;
-        containerEl.appendChild(eventEl);
     });
-}
+     }
+
 
 // FilterEvents funktionen bruges til at filtrere events
 function filterEvents() {
