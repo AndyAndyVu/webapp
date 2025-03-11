@@ -39,7 +39,6 @@ header i {
 
 .header ul {
     list-style-type: none;
-    overflow: hidden;
 }
 
 /*Velkommen*/
@@ -99,12 +98,22 @@ footer ul {
 #sortFilter {
     margin-left: 1rem;
 }
-/* LAVET AF IMILIA */
+
+/* Cards imilia */
 article {
     display: flex;
     padding-bottom: 1rem;
     padding: 1rem;
 }
+
+/* article:last-of-type(13) {
+    margin-bottom: 4rem;
+} */
+
+/* det er en sjusket løsning, men jeg kunne ikke få ovenstående til at virke */
+ .lastArticle {
+    margin-bottom: 7.5rem;
+ }
 
 article div {
     background-color: var(--beige);
