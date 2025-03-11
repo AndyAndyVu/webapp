@@ -16,29 +16,34 @@
         </div>
     </header>
 
-    <main>
-
-        <h2>Mandag 27. august</h2>
-        <select id="sortFilter">
-            <option value="time">Sortere efter: Tidspunkt</option>
-            <option value="blues">Sortere efter: Blues</option>
-            <option value="jazz">Sortere efter: Jazz</option>
-            <option value="kunstner">Sortere efter: Kunstner</option>
-            <option value="sted">Sortere efter: Sted</option>
-            <option value="pris">Sortere efter: Pris</option>
-        </select>
-
-        <div class="event-list">
-            <img src="./img/AbZalon Event Factory.png" alt="Late Night Jam">
-            <div class="event-info">
-                <h3>Late Night Jam</h3>
-                <ul>
-                    <li> AbZalon Event Factory</li>
-                    <li> Blues</li>
-                    <li> Entre 50,- <img src="./img/like ikon.png" alt="hjerte"></li>
-                </ul>
-            </div>
-    </main>
+    <select id="filterDay">
+        <option value="all">Alle dage</option>
+        <option value="Torsdag">Torsdag</option>
+        <option value="Fredag">Fredag</option>
+        <option value="Lørdag">Lørdag</option>
+    </select>
+    
+    <select id="filterLocation">
+        <option value="all">Alle steder</option>
+        <option value="Abzalon Event Factory">Abzalon Event Factory</option>
+        <option value="Kulturcenter Fjordbyen">Kulturcenter Fjordbyen</option>
+        <option value="Salling Rooftop">Salling Rooftop</option>
+    
+    </select>
+    
+    <select id="filterTid">
+        <option value="all">Alle Tider</option>
+        <option value="14:00">14:00</option>
+        <option value="15:00">15:00</option>
+        <option value="17:00">17:00</option>
+        <option value="18:00">18:00</option>
+        <option value="19:30">19:30</option>
+        <option value="20:00">20:00</option>
+        <option value="21:00">21:00</option>
+    
+    </select>
+    
+    <div id="eventContainer"></div>
 
 </body>
 
